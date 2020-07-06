@@ -16,10 +16,7 @@ You'll need a system that has PHP on it. Tested with PHP 7.
 3. Fill out the above items in camect.php and make sure camect.php is accessible.  There is an optional auth_code variable that will make it so that each call to camect.php must also include a **&auth=** directive including this value. This is just for extra security, but not required as CamId's are GUID's and not guessable. 
 4. Navigate to https://home.camect.com, click the pop-out icon for a camera and obtain the CamId.
 5. Next call your script like this, replacing CAMID with your id from above <code>http://myserver/camect.php&snapshot=CAMID</code>
-6. Optional arguments: <code>
-&width=xxx
-&height=xxx
-</code>
+6. Optional arguments: <code> &width=xxx &height=xxx </code>
 
 Bugs/Contact Info
 -----------------
